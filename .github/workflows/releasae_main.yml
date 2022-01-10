@@ -55,5 +55,6 @@ jobs:
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: |
+          git log
           npx lerna version --yes --conventional-commits -m "chore(release): publish @s" --force-git-tag --create-release github --no-private
           npx lerna publish from-package --yes

@@ -41,7 +41,6 @@ jobs:
       - name: 'Install and build'
         run: |
           yarn
-          yarn build:prod
 
       - name: 'set username and useEmail'
         run: |

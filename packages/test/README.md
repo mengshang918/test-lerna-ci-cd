@@ -7,7 +7,7 @@
 ```
 const test = require('@mengshangtest/test');
 
-testci
+testci 1
 
 // TODO: DEMONSTRATE API
 ```
